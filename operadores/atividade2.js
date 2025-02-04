@@ -12,4 +12,9 @@
 
  console.log (idade >= 16)
  console.log  (idade >= 18)
+ console.log  (idade >= 70)
+
+ //03
+ 
+
 
