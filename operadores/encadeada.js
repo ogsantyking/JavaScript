@@ -147,24 +147,3 @@ if (pontos <1000) {
 }  else if (pontos >10000) {
     console.log("Mestre")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
