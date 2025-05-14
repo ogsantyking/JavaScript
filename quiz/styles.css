@@ -11,7 +11,7 @@
 
 /* Estilizando o corpo da página */
 body {
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(37, 126, 42, 0.702);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,18 +20,20 @@ body {
 
 /* Container principal do quiz */
 .container {
-    background-color: white;
+    background-color: rgba(81, 208, 79, 0.565);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(0, 255, 8);
     max-width: 600px;
     width: 90%;
+   
+
 }
 
 /* Estilo do título */
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 2rem;
 }
 
@@ -41,7 +43,7 @@ h1 {
     justify-content: space-around;
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     border-radius: 5px;
     font-size: 1.1rem;
 }
@@ -53,19 +55,19 @@ h1 {
 
 /* Cor do número de acertos */
 #acertos {
-    color: #5d56bd;
+    color: #0dff00;
 }
 
 /* Cor do número de erros */
 #erros {
-    color: #ff4444;
+    color: #ff0000;
 }
 
 /* Estilo da pergunta */
 #pergunta {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
-    color: #444;
+    color: #000000;
 }
 
 /* Estilo das opções de resposta */
@@ -89,9 +91,9 @@ h1 {
 
 /* Estilo da opção selecionada */
 .opcao.selecionada {
-    background-color: #5d56bd;
+    background-color: #8adb92;
     color: white;
-    border-color: #5f58bd;
+    border-color: #8adb92;
 }
 
 /* Estilo dos botões */
@@ -100,7 +102,7 @@ button {
     width: 100%;
     padding: 10px;
     margin-top: 1rem;
-    background-color: #000000;
+    background-color: #008d4d;
     color: white;
     border: none;
     border-radius: 5px;
@@ -121,7 +123,7 @@ button {
 
 /* Estilo do título da pontuação final */
 #pontuacao h2 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
@@ -129,5 +131,12 @@ button {
 #pontuacao p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #444;
-} 
+    color: #ffffff;
+}
+.img {
+  position: fixed;
+    left: 70%;
+   padding-top: 50px;
+    
+   
+}

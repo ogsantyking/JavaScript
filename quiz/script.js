@@ -1,47 +1,62 @@
 const perguntas = [
     {
-        pergunta: "Qual o nome da nossa escola?",
-        opcoes: ["Luis Eulalio de Bueno Vidigal Filho", "Luis Eulalio", "Luis de Bueno", "Luis Eulalio de Vidigal"],
-        correta: 0
-    },
-    {
-        pergunta: "Qual o nome do nosso curso?",
-        opcoes: ["Analise e Desenvolvimento de Sistemas", "Sistemas de informação", "Desenvolvimento de Sistemas", "Ciência da Computação"],
+        pergunta: "Qual é o gás que as plantas absorvem durante a fotossíntese?",
+        opcoes: ["Oxigênio", "Nitrogênio", "Dióxido de carbono", "Hidrogênio"],
         correta: 2
     },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
+        pergunta: "Qual é o planeta conhecido como 'Planeta Vermelho'?",
+        opcoes: ["Vênus", "Marte", "Júpiter", "Saturno"],
         correta: 1
-    }
+    },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
+        pergunta: "Qual elemento químico tem o símbolo 'O' na tabela periódica?",
+        opcoes: ["Ouro", "Mercúrio", "Oxigênio", "Ferro"],
+        correta: 2
+    },
+    {
+        pergunta: "O que a água (H₂O) é composta?",
+        opcoes: [
+            "1 átomo de hidrogênio e 1 átomo de oxigênio",
+            "2 átomos de hidrogênio e 1 átomo de oxigênio",
+            "2 átomos de oxigênio e 1 átomo de hidrogênio",
+            "2 átomos de hélio e 1 átomo de oxigênio"
+        ],
         correta: 1
-    }
+    },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
-        correta: 1
-    }
+        pergunta: "Qual é a fase da Lua em que ela não é visível da Terra?",
+        opcoes: ["Lua cheia", "Quarto crescente", "Lua nova", "Quarto minguante"],
+        correta: 2
+    },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
-        correta: 1
-    }
+        pergunta: "Qual é o maior órgão do corpo humano?",
+        opcoes: ["Cérebro", "Fígado", "Pele", "Coração"],
+        correta: 2
+    },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
-        correta: 1
-    }
+        pergunta: "Qual destes animais é um mamífero?",
+        opcoes: ["Tubarão", "Pinguim", "Golfinho", "Cobra"],
+        correta: 2
+    },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
-        correta: 1
-    }
+        pergunta: "O que causa os raios durante uma tempestade?",
+        opcoes: [
+            "Colisão de nuvens",
+            "Aquecimento global",
+            "Descarga elétrica entre nuvens ou entre nuvens e o solo",
+            "Vento forte"
+        ],
+        correta: 2
+    },
     {
-        pergunta: "Em que ano foi fundada a escola?",
-        opcoes: ["1999", "1942", "1985", "1970"],
+        pergunta: "Qual é a unidade básica da vida?",
+        opcoes: ["Átomo", "Molécula", "Célula", "Tecido"],
+        correta: 2
+    },
+    {
+        pergunta: "Qual fenômeno é responsável pelo som do eco?",
+        opcoes: ["Refração da luz", "Reflexão do som", "Absorção de ondas", "Difração do vento"],
         correta: 1
     }
 ]
