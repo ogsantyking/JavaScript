@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz - Senai</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="tela-inicial">
+      <h1>QUIZ - SENAI</h1>
+      <div class="center">
+        <button id="iniciar-quiz">Iniciar Quiz</button>
+      </div>
+    </div>
+
+
+    <div id="tela-quiz" style="display: none;">
+      <h1>QUIZ - SENAI</h1>
+
+      <div id="progresso">
+        <div id="barra"></div>
+      </div>
+
+      <div id="pergunta"></div>
+      <div id="opcoes"></div>
+
+      <div id="botoes-controle">
+        <button id="mostrar-resposta" style="display: none;">Mostrar Resposta</button>
+        <button id="proxima" disabled>Próxima Pergunta</button>
+      </div>
+    </div>
+
+    <div id="pontuacao" style="display: none;">
+      <h2>Resultado Final</h2>
+      <div class="center">
+        <p> Acertos: <span id="acertos">0</span></p>
+        <p> Erros: <span id="erros">0</span> </p>
+        <button id="reiniciar">Reiniciar Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+    <p>Técnico em Desenvolvimento de Sistemas 2º | Desenvolvedores - Erick, Gustavo, Heitor, Maria Alice e Yasmim</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
